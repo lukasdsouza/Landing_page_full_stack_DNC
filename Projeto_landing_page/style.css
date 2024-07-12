@@ -1,8 +1,27 @@
 *{
+    margin: 0px;
     background-color: black;
-    
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: white;
+    font-family: "inter";
 }
 
-.logo {
+#logo {
     max-width: 150px;
+    margin-left: 50px;
+    margin-top: 25px;
 }
+
+#titulo-menusuperior {
+    margin-left: 150px;
+    margin-top: 75px;
+
+}
+
+#texto_menusuperior{
+    margin-left: 150px;
+    margin-top: 75px;
+
+}
+
+
