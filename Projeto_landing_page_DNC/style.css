@@ -60,3 +60,37 @@
 #video{
     margin: 50px 25px 50px 75px;
 }
+
+#carrossel{
+    background-color: #247ba0;
+    margin: 0px 0px 0px 0px;
+    padding: 100px;
+    
+}
+
+#titulocarrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column; 
+}
+
+.card{
+    margin-left: 50px;
+
+}
+
+#seta_esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
