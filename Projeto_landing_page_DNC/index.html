@@ -51,12 +51,22 @@
 
             <!--Divisão dos cards-->
             <div id="div-cards">
-                <img id="seta_esquerda" src="icones/seta_esquerda.svg" alt="">
+                <img id="seta_esquerda" onclick="RolarParaEsquerda()" class="seta" src="icones/seta_esquerda.svg" alt="">
                 <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="">
                 <img id="samantha" class="card" src="./cards/samantha.svg" alt="">
                 <img id="bruna" class="card" src="./cards/bruna.svg" alt="">
-                <img id="seta_direita" src="icones/seta_direita.svg" alt="">
+                <img id="seta_direita" onclick="RolarParaDireita()" class="seta" src="icones/seta_direita.svg" alt="">
             </div>
+    </div>
+<!--Formulário-->
+    <div id="formulario" >
+        <h1 id="tituloformulario" >Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="">
+            <input type="text" placeholder="Nome"><br>
+            <input type="email" placeholder="E-mail"><br>
+            <input type="number" placeholder="Telefone"><br>
+            <button>Acesse a ementa grátis</button>
+        </form>
     </div>
 
     <script src="index.js"></script>

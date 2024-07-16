@@ -63,23 +63,21 @@
 
 #carrossel{
     background-color: #247ba0;
-    margin: 0px 0px 0px 0px;
-    padding: 100px;
+    padding: 50px;
     
 }
 
 #titulocarrossel{
     color: #EAECE5;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 25px;
 
 }
 
 #div-cards{
-    margin-top: 100px;
+    margin-top: 25px;
     display: grid;
-    grid-auto-flow: column; 
+    grid-auto-flow: column;
 }
 
 .card{
@@ -95,3 +93,54 @@
     display: none;
 }
 
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration:0.5s ;
+}
+
+#formulario{
+    text-align: center;
+
+}
+
+#tituloformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247ba0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #2c95c2;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration:0.5s ;
+    box-shadow: 0px 15px 20px #142779;
+}
