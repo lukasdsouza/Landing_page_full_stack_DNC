@@ -1,0 +1,20 @@
+*{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+#titulo-principal{
+    color: red;
+    background-color: aliceblue;
+}
+
+#titulo-secundario{
+    color: gray;
+}
+
+p{
+    text-align: justify;
+    margin: 15px;
+    color: aliceblue;
+}
